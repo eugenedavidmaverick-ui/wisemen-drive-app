@@ -13,7 +13,7 @@ const FarmertricsFooter = () => {
                 alt="Farmertrics Logo"
                 className="w-10 h-10 object-contain"
               />
-              <span className="text-xl font-bold">Farmertrics</span>
+              <span className="text-xl font-bold"></span>
             </div>
             <p className="text-primary-foreground/80 text-sm">
               Empowering farmers through data-driven decisions
