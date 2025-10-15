@@ -19,7 +19,7 @@ const Contact = () => {
               <Phone className="text-accent" size={24} />
             </div>
             <h3 className="font-heading font-semibold text-xl mb-2">Phone</h3>
-            <p className="text-muted-foreground">+1 (555) 123-4567</p>
+            <p className="text-muted-foreground">+233 (54) 857-8655</p>
           </div>
 
           <div className="text-center p-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
