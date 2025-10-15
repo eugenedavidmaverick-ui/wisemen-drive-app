@@ -19,10 +19,15 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <h1 className="text-2xl font-heading font-bold tracking-wider text-primary">
-              WISEMEN
-            </h1>
-          </Link>
+  <img
+    src="/FARMETRICS sybols-13-13.png"
+    alt="Wisemen Logo"
+    className="h-10 w-auto"
+  />
+  <h1 className="text-2xl font-heading font-bold tracking-wider text-primary">
+    WISEMEN
+  </h1>
+</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
