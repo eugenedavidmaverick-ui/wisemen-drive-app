@@ -33,7 +33,7 @@ const FarmertricsContact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+233 (54) 857-8655=</p>
+                      <p className="text-muted-foreground">+233 (54) 857-8655</p>
                     </div>
                   </div>
 
