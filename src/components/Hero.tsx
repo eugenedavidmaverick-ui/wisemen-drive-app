@@ -24,11 +24,11 @@ const Hero = () => {
           Where different perspectives meet in perfect harmony
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="premium" size="lg">
+          <Button variant="secondary" size="lg">
             Explore Collection
             <ArrowRight className="ml-2" />
           </Button>
-          <Button variant="hero" size="lg">
+          <Button variant="outline" size="lg">
             Schedule Test Drive
           </Button>
         </div>

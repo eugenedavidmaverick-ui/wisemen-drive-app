@@ -35,7 +35,7 @@ const Navigation = () => {
                 {link.name}
               </a>
             ))}
-            <Button variant="premium" size="sm">
+            <Button variant="default" size="sm">
               Book Now
             </Button>
           </div>
@@ -63,7 +63,7 @@ const Navigation = () => {
                   {link.name}
                 </a>
               ))}
-              <Button variant="premium" size="sm" className="w-full">
+              <Button variant="default" size="sm" className="w-full">
                 Book Now
               </Button>
             </div>

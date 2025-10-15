@@ -8,53 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 265 45% 8%;
-    --foreground: 30 40% 95%;
+    --background: 0 0% 100%;
+    --foreground: 174 60% 15%;
 
-    --card: 265 35% 12%;
-    --card-foreground: 30 40% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 174 60% 15%;
 
-    --popover: 265 35% 12%;
-    --popover-foreground: 30 40% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 174 60% 15%;
 
-    --primary: 30 80% 92%;
-    --primary-foreground: 265 45% 15%;
+    --primary: 174 65% 30%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 30% 18%;
-    --secondary-foreground: 30 40% 95%;
+    --secondary: 42 95% 60%;
+    --secondary-foreground: 174 60% 15%;
 
-    --muted: 270 25% 20%;
-    --muted-foreground: 25 30% 70%;
+    --muted: 174 10% 95%;
+    --muted-foreground: 174 20% 40%;
 
-    --accent: 20 85% 65%;
-    --accent-foreground: 265 45% 15%;
+    --accent: 42 95% 60%;
+    --accent-foreground: 174 60% 15%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 30 40% 95%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 265 25% 22%;
-    --input: 265 25% 22%;
-    --ring: 20 85% 65%;
+    --border: 174 15% 85%;
+    --input: 174 15% 85%;
+    --ring: 174 65% 30%;
 
-    --radius: 0rem;
+    --radius: 1rem;
     
-    /* Mystical gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(265 45% 8%) 0%, hsl(280 40% 12%) 50%, hsl(15 60% 30%) 100%);
-    --gradient-overlay: linear-gradient(180deg, hsl(265 45% 8% / 0) 0%, hsl(265 45% 8% / 0.95) 100%);
-    --gradient-sunset: linear-gradient(135deg, hsl(280 50% 25%) 0%, hsl(25 80% 55%) 50%, hsl(15 85% 65%) 100%);
+    /* Farmertrics gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(174 65% 30%) 0%, hsl(174 55% 40%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(42 95% 60%) 0%, hsl(35 90% 55%) 100%);
+    --gradient-overlay: linear-gradient(180deg, hsl(174 65% 30% / 0) 0%, hsl(174 65% 30% / 0.9) 100%);
     
     /* Shadows */
-    --shadow-premium: 0 25px 50px -12px hsl(20 85% 35% / 0.3);
-    --shadow-glow: 0 0 60px hsl(20 85% 65% / 0.4);
-    --shadow-mystical: 0 20px 40px hsl(280 60% 20% / 0.5);
+    --shadow-card: 0 4px 20px hsl(174 65% 30% / 0.08);
+    --shadow-hover: 0 8px 30px hsl(174 65% 30% / 0.12);
+    --shadow-glow: 0 0 40px hsl(42 95% 60% / 0.3);
     
     /* Typography */
-    --font-heading: 'Playfair Display', serif;
+    --font-heading: 'Inter', sans-serif;
     --font-body: 'Inter', sans-serif;
     
     /* Transitions */
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-premium: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -98,31 +98,31 @@ All colors MUST be HSL.
     background: var(--gradient-hero);
   }
   
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
   .gradient-overlay {
     background: var(--gradient-overlay);
   }
   
-  .gradient-sunset {
-    background: var(--gradient-sunset);
+  .shadow-card {
+    box-shadow: var(--shadow-card);
   }
   
-  .shadow-premium {
-    box-shadow: var(--shadow-premium);
+  .shadow-hover {
+    box-shadow: var(--shadow-hover);
   }
   
   .shadow-glow {
     box-shadow: var(--shadow-glow);
   }
   
-  .shadow-mystical {
-    box-shadow: var(--shadow-mystical);
-  }
-  
   .transition-smooth {
     transition: var(--transition-smooth);
   }
   
-  .transition-premium {
-    transition: var(--transition-premium);
+  .transition-spring {
+    transition: var(--transition-spring);
   }
 }
