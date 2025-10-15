@@ -23,7 +23,7 @@ const FarmertricsNav = () => {
             alt="Farmertrics Logo"
             className="w-10 h-10 object-contain"
           />
-          <span className="text-xl font-bold text-primary">Farmertrics</span>
+          <span className="text-xl font-bold text-primary"></span>
         </Link>
 
         {/* Desktop Navigation */}
