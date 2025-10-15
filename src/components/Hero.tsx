@@ -17,11 +17,11 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold mb-6 tracking-tight">
-          Timeless Elegance
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold mb-6 tracking-tight bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+          Journey to Wisdom
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
-          Experience the pinnacle of automotive luxury with Wisemen
+          Where different perspectives meet in perfect harmony
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="premium" size="lg">

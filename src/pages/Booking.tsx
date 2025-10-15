@@ -40,7 +40,7 @@ const Booking = () => {
       <main className="pt-32 pb-20">
         <div className="container mx-auto px-4 max-w-3xl">
           <div className="text-center mb-12 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl font-heading font-bold mb-4">
+            <h1 className="text-5xl md:text-6xl font-heading font-bold mb-4 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Book Your Experience
             </h1>
             <p className="text-muted-foreground text-lg">
@@ -48,7 +48,7 @@ const Booking = () => {
             </p>
           </div>
 
-          <Card className="shadow-premium border-border animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <Card className="shadow-mystical border-border animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <CardHeader>
               <CardTitle className="text-2xl font-heading">Reservation Details</CardTitle>
               <CardDescription>

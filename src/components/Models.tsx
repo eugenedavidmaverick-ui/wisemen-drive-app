@@ -26,7 +26,7 @@ const Models = () => {
     <section id="models" className="py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-6xl font-heading font-bold mb-4">
+          <h2 className="text-4xl md:text-6xl font-heading font-bold mb-4 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
             Our Collection
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -38,7 +38,7 @@ const Models = () => {
           {models.map((model, index) => (
             <Card
               key={model.name}
-              className="group overflow-hidden bg-card border-border hover:border-accent/50 transition-premium animate-fade-in shadow-premium"
+              className="group overflow-hidden bg-card border-border hover:border-accent/50 transition-premium animate-fade-in shadow-mystical"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <CardContent className="p-0">
