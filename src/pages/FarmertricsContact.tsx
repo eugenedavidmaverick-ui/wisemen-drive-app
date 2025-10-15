@@ -33,7 +33,7 @@ const FarmertricsContact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                      <p className="text-muted-foreground">+233 (54) 857-8655=</p>
                     </div>
                   </div>
 
@@ -55,7 +55,7 @@ const FarmertricsContact = () => {
                       <h3 className="font-semibold text-foreground mb-1">Office</h3>
                       <p className="text-muted-foreground">
                         123 AgriTech Plaza<br />
-                        Farm City, FC 12345
+                        Accra Ghana, FC
                       </p>
                     </div>
                   </div>
