@@ -21,7 +21,7 @@ const FarmertricsNav = () => {
           <img
             src="/farmmmmm.png"
             alt="Farmertrics Logo"
-            className="w-12 h-12 md:w-14 md:h-14 object-contain"
+            className="w-16 h-16 md:w-20 md:h-20 object-contain"
           />
           <span className="text-xl font-bold text-primary"></span>
         </Link>
